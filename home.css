@@ -1,0 +1,37 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('/image/freepik-gradient-modern-gaming-streamer-offline-twitch-background-202507171512443fVB.png');                
+  background-position: center;            
+  background-attachment: fixed;        
+  background-color: #000; 
+  background-size:cover;
+  background-repeat: no-repeat;
+  animation-name: bg1;
+  animation-timing-function:inherit;
+  animation-duration: 12s;  
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  transition: 4s;
+
+}
+
+@keyframes bg1 {
+25% {
+    background-image: url(/image/freepik-gradient-modern-gaming-streamer-offline-twitch-background-202507171512443fVB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+60% {
+    background-image: url(/image/freepik-modern-game-day-black-youtube-banner-20250717154829hDqQ.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}}
