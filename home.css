@@ -9,7 +9,7 @@ html{
     margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url('/image/freepik-gradient-modern-gaming-streamer-offline-twitch-background-202507171512443fVB.png');                
+  background-image: url('freepik-gradient-modern-gaming-streamer-offline-twitch-background-202507171512443fVB.png');                
   background-position: center;            
   background-attachment: fixed;        
   background-color: #000; 
@@ -26,12 +26,12 @@ html{
 
 @keyframes bg1 {
 25% {
-    background-image: url(/image/freepik-gradient-modern-gaming-streamer-offline-twitch-background-202507171512443fVB.png);
+    background-image: url(freepik-gradient-modern-gaming-streamer-offline-twitch-background-202507171512443fVB.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 60% {
-    background-image: url(/image/freepik-modern-game-day-black-youtube-banner-20250717154829hDqQ.png);
+    background-image: url(freepik-modern-game-day-black-youtube-banner-20250717154829hDqQ.png);
     background-repeat: no-repeat;
     background-size: cover;
 }}
