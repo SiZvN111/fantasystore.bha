@@ -20,7 +20,7 @@ html{
    
    .card-img {
        background-color: #365b8f;
-    background-image: url(/image/steam-gift-card-euro-card-cover.jpg);
+    background-image: url(steam-gift-card-euro-card-cover.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: contain;
