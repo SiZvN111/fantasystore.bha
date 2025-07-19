@@ -1,0 +1,329 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    background: linear-gradient(45deg,   #1a1a1a   0%, black 100%);
+}
+.card {
+    margin-top: 15px;
+    background-color: #0254a0;
+    margin-left: 25px;
+    width: 200px;
+    height: 320px;
+    padding: .8em;
+    background: linear-gradient(45deg,  black 0%, #1a1a1a 100%);
+    position: relative;
+    overflow: visible;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px #0254a0, 0 1px 2px 
+    #009fe2;
+   }
+   
+   .card-img {
+    background-color:#0254a0;
+    background-image: url(/image/playstation-store-LL.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40%;
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: 0.3s ease;
+    margin-top: 10px;
+   }
+   
+   .card-info {
+    padding-top: 10%;
+   }
+   
+   svg {
+    width: 20px;
+    height: 20px;
+   }
+   
+   .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #ddd;
+   }
+   
+   .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+   }
+   
+   /*Button*/
+   .card-button {
+    border: 1px solid #0254a0;
+    display: flex;
+    padding: .5em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    background-color: #ddd;
+   }
+   
+   /*Hover*/
+   .card-img:hover {
+    transform: translateY(-10%);
+    box-shadow: #0254a0 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+   
+   .card-button:hover {
+    border: 1px solid #0254a0;
+    background-color: #0254a0;
+   }
+   nav{
+    display:flex;
+
+    align-items: center; 
+    }
+    .cardn {
+        margin-top: 15px;
+        margin-left: 45px;
+        width: 200px;
+        height: 320px;
+        padding: .8em;
+        background: linear-gradient(45deg,  black 0%, #1a1a1a 100%);
+        position: relative;
+        overflow: visible;
+        border-radius: 0.5rem;
+        box-shadow: 0 1px 3px #e50813, 0 1px 2px 
+        #e50813;
+       }
+       
+       .cardn-img {
+        background-color:black;
+        background-image: url(/image/public.avif);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40%;
+        width: 100%;
+        border-radius: 0.5rem;
+        transition: 0.3s ease;
+        margin-top: 10px;
+       }
+       
+       .cardn-info {
+        padding-top: 10%;
+       }
+       
+       svg {
+        width: 20px;
+        height: 20px;
+       }
+       
+       .cardn-footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+       }
+       
+       /*Text*/
+       .textn-title {
+        font-weight: 900;
+        font-size: 1.2em;
+        line-height: 1.5;
+        color: #ddd;
+       }
+       
+       .textn-body {
+        font-size: .9em;
+        padding-bottom: 10px;
+       }
+       
+       /*Button*/
+       .cardn-button {
+        border: 1px solid #e50813;
+        display: flex;
+        padding: .5em;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: .3s ease-in-out;
+        background-color: #ddd;
+       }
+       
+       /*Hover*/
+       .cardn-img:hover {
+        transform: translateY(-10%);
+        box-shadow: #e50813 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+       }
+       
+       .cardn-button:hover {
+        border: 1px solid #e50813;
+        background-color: #e50813;
+       }
+       .cardp {
+        margin-top: 15px;
+        margin-left: 25px;
+        width: 200px;
+        height: 320px;
+        padding: .8em;
+        background: linear-gradient(45deg,  black 0%, #1a1a1a 100%);
+        position: relative;
+        overflow: visible;
+        border-radius: 0.5rem;
+        box-shadow: 0 1px 3px white, 0 1px 2px white;
+       }
+       
+       .cardp-img {
+        background-color:white;
+        background-image: url(/image/Πώς_να_κατεβάσετε_και_να_εγκαταστήσετε_το_Play_Store_σε_λάπτοπ_και_PC_-removebg-preview.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40%;
+        width: 100%;
+        border-radius: 0.5rem;
+        transition: 0.3s ease;
+        margin-top: 10px;
+       }
+       
+       .cardp-info {
+        padding-top: 10%;
+       }
+       
+       svg {
+        width: 20px;
+        height: 20px;
+       }
+       
+       .cardp-footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+       }
+       
+       /*Text*/
+       .textp-title {
+        font-weight: 900;
+        font-size: 1.2em;
+        line-height: 1.5;
+        color: #ddd;
+       }
+       
+       .textp-body {
+        font-size: .9em;
+        padding-bottom: 10px;
+       }
+       
+       /*Button*/
+       .cardp-button {
+        border: 1px solid #252525;
+        display: flex;
+        padding: .3em;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: .3s ease-in-out;
+        background-color: #ddd;
+       }
+       
+       /*Hover*/
+       .cardp-img:hover {
+        transform: translateY(-10%);
+        box-shadow: white 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+       }
+       
+       .cardp-button:hover {
+        border: 1px solid white;
+        background-color: white;
+       }
+       .cards {
+        margin-top: 15px;
+        margin-left: 25px;
+        width: 200px;
+        height: 320px;
+        padding: .8em;
+        background: linear-gradient(45deg,  black 0%, #1a1a1a 100%);
+        position: relative;
+        overflow: visible;
+        border-radius: 0.5rem;
+        box-shadow: 0 1px 3px #365b8f, 0 1px 2px 
+        #365b8f;
+       }
+       
+    .cards-img {
+        background-color: #365b8f;
+        background-image: url(/image/steam-gift-card-euro-card-cover.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40%;
+        width: 100%;
+        border-radius: 0.5rem;
+        transition: 0.3s ease;
+        margin-top: 10px;
+    }
+    
+    .cards-info {
+     padding-top: 10%;
+    }
+    
+    svg {
+     width: 20px;
+     height: 20px;
+    }
+    
+    .cards-footer {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 10px;
+     border-top: 1px solid #ddd;
+    }
+    
+    /*Text*/
+    .texts-title {
+     font-weight: 900;
+     font-size: 1.2em;
+     line-height: 1.5;
+     color: #ddd;
+    }
+    
+    .texts-body {
+     font-size: .9em;
+     padding-bottom: 10px;
+    }
+    
+    /*Button*/
+    .cards-button {
+     border: 1px solid #252525;
+     display: flex;
+     padding: .5em;
+     cursor: pointer;
+     border-radius: 50px;
+     transition: .3s ease-in-out;
+     background-color: #ddd;
+    }
+    
+    /*Hover*/
+    .cards-img:hover {
+     transform: translateY(-10%);
+     box-shadow: #365b8f 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+    }
+    
+    .cards-button:hover {
+     border: 1px solid #365b8f;
+     background-color: #365b8f;
+    }
+       
