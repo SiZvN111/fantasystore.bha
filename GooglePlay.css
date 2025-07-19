@@ -6,6 +6,7 @@ html{
     background: linear-gradient(45deg,   #1a1a1a  0%, black 100%);
 }
 .card {
+    margin-top: 15px;
     margin-left: 25px;
     width: 200px;
     height: 320px;
@@ -14,12 +15,12 @@ html{
     position: relative;
     overflow: visible;
     border-radius: 0.5rem;
-    box-shadow: 0 1px 3px #a32bff6a, 0 1px 2px #a32bff27;
+    box-shadow: 0 1px 3px white, 0 1px 2px white;
    }
    
    .card-img {
-    background-color: #a42bff;
-    background-image: url(Πώς_να_κατεβάσετε_και_να_εγκαταστήσετε_το_Play_Store_σε_λάπτοπ_και_PC_-removebg-preview.png);
+    background-color:white;
+    background-image: url(/image/Πώς_να_κατεβάσετε_και_να_εγκαταστήσετε_το_Play_Store_σε_λάπτοπ_και_PC_-removebg-preview.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -74,13 +75,13 @@ html{
    
    /*Hover*/
    .card-img:hover {
-    transform: translateY(-25%);
-    box-shadow: #a42bff 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+    transform: translateY(-10%);
+    box-shadow: white 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
    }
    
    .card-button:hover {
-    border: 1px solid #a42bff;
-    background-color: #a42bff;
+    border: 1px solid white;
+    background-color: white;
    }
    nav{
     display:flex;
