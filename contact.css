@@ -7,7 +7,7 @@ html{
     background-size: cover;
 }
 h1{
-    color: white;
+    color:#a42bff;
     font-size: 55px;
     font-weight: bold;
     margin-left:25px;
@@ -21,14 +21,14 @@ h1{
 }
 p{
   font-weight:400;
-    font-size: 20px;
-    margin-left:15px;
+    font-size: 18px;
+    margin-left:5px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
-  color: white;
-  font-size: 30px;
+  color: #a42bff;
+  font-size: 35px;
   margin-left: 15px;
 }
 header{
