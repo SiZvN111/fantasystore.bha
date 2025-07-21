@@ -1,0 +1,294 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/image/freepik-untitled-project-20250721162848lfjP.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    margin-left:25px;
+}
+.h1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+
+}
+p{
+  font-weight:400;
+    font-size: 20px;
+    margin-left:15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+  color: white;
+  font-size: 30px;
+  margin-left: 15px;
+}
+header{
+    width: 36%;
+    height: 95vh;
+    
+}
+
+.form-container {
+  margin-top: 35px;
+  background-color: #1a1a1a;
+    margin-right: 100px;
+    width: 650px;
+    height: 430px;
+    box-shadow:  0.2px -0.2px 50px #a42bff,
+    0.2px -0.2px 100px black;
+    
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+    
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 50% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+  }
+  
+  .form-container .form-group  {
+    display: block;
+    margin-bottom: 5px;
+    color: #717171;
+    font-weight: 600;
+    font-size: 12px;
+    
+  }
+
+  
+  .form-container .form-group textarea {
+    width: 95%;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    resize: none;
+    height: 96px;
+    font-size:16px;
+    background: #e8e8e8;
+    box-shadow: 1px 1px 10px white;
+    transition: 0.3s;
+    
+  }
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #a42bff;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+    inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    display: block;
+    width: 50%;
+    font-weight: bold;
+    background: linear-gradient(45deg,  #a42bff 0%, #a42bff 100%);
+    color: white;
+    padding-block: 17px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+    transition: 0.5s;
+
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: black;
+    border-color: black;
+    background-color: white  10%;
+    width: 52%;
+    height:12vh;
+  }
+nav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  
+}
+#p1{
+  color:white;
+  font-size: 20px;
+  
+}
+
+.input {
+  width: 550px;
+  margin-top: 10px;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  box-shadow: 1px 1px 10px white;
+  transition: 0.3s;
+  border-radius: 8px;
+ }
+ 
+ .input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5,
+  inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+ }
+ button {
+  font-size: 18px;
+  color:whitesmoke;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.i :focus,
+.i:hover {
+  color:#e03675;
+}
+
+.i:focus:after,
+.i:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.i:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color:#e03675;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+.jj{
+  display: flex; 
+  align-items: center; 
+
+}
+.icons img{
+  margin-left: 15px;
+  width: 33px;
+  height:31px;
+}
+.f:focus,
+.f:hover {
+  color:
+  #1877f2;
+}
+ .f:focus:after,
+ .f:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.f:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #1877f2;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+.w :focus,
+.w:hover {
+  color:#1fc93d;
+}
+
+.w:focus:after,
+.w:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.w:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color:#1fc93d;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
