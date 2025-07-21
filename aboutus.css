@@ -1,0 +1,194 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg,  #1a1a1a 0%,  black 100%);
+    padding: 0;
+    margin: 0;
+     
+}
+.hed{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+
+
+
+h1 {
+  margin: 0;
+  font-size: 6em;
+  padding: 0;
+  color: white;
+  text-shadow: 0 0.1em 20px #4159d095 , 0.05em -0.03em 0 #1a1a1a,
+    0.05em 0.005em 5px  #a42bff , 0em 0.08em 0 #1a1a1a ,
+    0.05em 0.08em 0#1a1a1a, 0px -0.03em 0 #1a1a1a,
+    -0.03em -0.03em 0 #1a1a1a, -0.03em 0.08em 0 #1a1a1a, -0.03em 0 0 #1a1a1a;
+ }
+
+
+
+@keyframes bop {
+  0% {
+    transform: scale(0.9);
+  }
+  50%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bopB {
+  0% {
+    transform: scale(0.9);
+  }
+  80%,
+  100% {
+    transform: scale(1) rotateZ(-3deg);
+  }
+}
+.card {
+    margin-left:5vw ;
+    width: 90vw;
+    height: 200px;
+    background-color: #a42bff;
+    background-image: linear-gradient(43deg, #4158D0 0%, #a42bff 46%, #1a1a1a 100%);
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+  }
+  
+  .card-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .card-content .card-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+  }
+  
+  .card-content .card-para {
+    color: inherit;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card:hover {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  
+  .card:hover:before {
+    transform: translateX(-100%);
+  }
+  
+  .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  
+  .card:hover:after {
+    transform: translateX(100%);
+  }
+  p{
+      color: white;
+  }
+  button {
+      margin-top: 10px;
+    font-size: 38px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  button:focus,
+  button:hover {
+    color: #fff;
+  }
+  
+  button:focus:after,
+  button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color:#763ae1;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  .p2{
+      font-size: 23px;
+      font-weight:400;
+  }
+  .p4{
+    font-size: 25px;
+    font-weight:600;
+    color: #a42bff;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
